@@ -18,7 +18,9 @@ export default function Menu() {
         <nav className="z-50 fixed shadow-sm top-0 left-0 w-full py-4 bg-white/30 backdrop-filter backdrop-blur-lg dark:bg-gray-900/30">
             <div className="mx-auto w-4/5 font-bold flex justify-between ">
                 <div>
-                    <h2>@rowancode</h2>
+                    <Link href={'/'}>
+                        <span>@rowancode</span>
+                    </Link>
                 </div>
                 <ul className="flex gap-4">
                     <li>

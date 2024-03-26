@@ -6,7 +6,7 @@ export default function Footer() {
     return (
         <nav className="flex justify-between py-4">
             <div>
-                <h2>@rowancode</h2>
+                <span>@rowancode</span>
             </div>
             <div>
                 All rights reserved {date.getFullYear()}
